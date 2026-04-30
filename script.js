@@ -31,16 +31,55 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // Formulario demostrativo
   if (contactForm) {
-    contactForm.addEventListener("submit", (e) => {
+    contactForm.addEventListener("submit", async (e) => {
       e.preventDefault();
 
-      formMessage.textContent =
-        "Gracias por tu mensaje. Este formulario es demostrativo dentro del mockup.";
-      formMessage.style.color = "#344054";
+      const submitButton = contactForm.querySelector('button[type="submit"]');
+      const formData = new FormData(contactForm);
 
-      contactForm.reset();
+      formMessage.textContent = "";
+      submitButton.disabled = true;
+      submitButton.textContent = "Enviando...";
+
+      try {
+        const response = await fetch(contactForm.action, {
+          method: "POST",
+          body: formData,
+        });
+
+        const text = await response.text();
+        console.log("Respuesta contacto.php:", text);
+
+        let result;
+
+        try {
+          result = JSON.parse(text);
+        } catch (error) {
+          throw new Error("Respuesta no JSON: " + text);
+        }
+
+        if (result.success) {
+          formMessage.textContent = result.message;
+          formMessage.style.color = "#2f6f4e";
+          contactForm.reset();
+        } else {
+          formMessage.textContent = result.message;
+          formMessage.style.color = "#9b2c2c";
+        }
+      } catch (error) {
+        formMessage.textContent = "Error de conexión.";
+        formMessage.style.color = "#9b2c2c";
+      } finally {
+        submitButton.disabled = false;
+        submitButton.textContent = "Enviar mensaje";
+      }
     });
+  }
+
+  const startedAt = document.getElementById("formStartedAt");
+
+  if (startedAt) {
+    startedAt.value = Date.now().toString();
   }
 });

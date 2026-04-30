@@ -72,25 +72,29 @@
                             </div>
 
                             <div class="stats-showcase reveal">
-                                <article class="custom-card stat-card">
+                                <div class="stats-top-row">
+                                    <article class="custom-card stat-card stat-card-compact">
+                                        <strong>UDEM</strong>
+                                        <span>Licenciatura en Psicología</span>
+                                        <p>Formación profesional universitaria.</p>
+                                    </article>
+
+                                    <article class="custom-card stat-card stat-card-featured">
+                                        <strong>UANL</strong>
+                                        <span>Depto. de Psiquiatría</span>
+                                        <p>
+                                            Especialidad y Subespecialidad en Psicoterapia de adultos,
+                                            adolescentes y niños.
+                                        </p>
+                                    </article>
+                                </div>
+
+                                <article class="custom-card stat-card stat-card-wide">
                                     <strong>40+</strong>
-                                    <span>Años de experiencia</span>
-                                    <p>Trayectoria clínica, docente y de consulta privada.</p>
-                                </article>
-
-                                <article class="custom-card stat-card">
-                                    <strong>UDEM</strong>
-                                    <span>Licenciatura en Psicología</span>
-                                    <p>Formación profesional universitaria.</p>
-                                </article>
-
-                                <article class="custom-card stat-card stat-card-featured">
-                                    <strong>UANL</strong>
-                                    <span>Depto. de Psiquiatría</span>
-                                    <p>
-                                        Especialidad y Subespecialidad en Psicoterapia de adultos,
-                                        adolescentes y niños.
-                                    </p>
+                                    <div>
+                                        <span>Años de experiencia</span>
+                                        <p>Trayectoria clínica, docente y de consulta privada.</p>
+                                    </div>
                                 </article>
                             </div>
                         </div>
@@ -98,7 +102,7 @@
 
                     <div class="col-lg-6 hero-image-col">
                         <div class="hero-image-wrap reveal">
-                            <img src="img/terapia.jpg" alt="Espacio de consulta psicológica" class="hero-image">
+                            <img src="img/hero.jpg" alt="Espacio de consulta psicológica" class="hero-image">
                         </div>
                     </div>
                 </div>
@@ -126,7 +130,8 @@
                                 Universitario de la UANL, donde también ejerció labores docentes y de coordinación.
                             </p>
                             <p>
-                                Su práctica integra experiencia clínica, formación especializada en psicoterapia y un
+                                Su práctica integra experiencia clínica, formación especializada en psicoterapia de
+                                adultos, adolescentes y niños, y un
                                 profundo interés por el psicodiagnóstico como herramienta de evaluación precisa.
                             </p>
                         </div>
@@ -144,8 +149,8 @@
                             <span class="eyebrow">Trayectoria</span>
                             <h2>Formación, docencia y práctica clínica en un recorrido profesional de gran solidez.</h2>
                             <p>
-                                Una trayectoria construida entre la universidad, el hospital, la enseñanza y la consulta
-                                privada.
+                                Una trayectoria construida entre la universidad, el hospital, la enseñanza y la
+                                consulta.
                             </p>
                         </div>
                     </div>
@@ -327,7 +332,7 @@
                 </div>
 
                 <div class="row g-4">
-                    <div class="col-xl-3 col-md-6">
+                    <div class="col-lg-4 col-md-6">
                         <article class="card custom-card feature-card reveal h-100">
                             <div class="feature-icon">
                                 <i class="fa-solid fa-couch"></i>
@@ -338,7 +343,7 @@
                         </article>
                     </div>
 
-                    <div class="col-xl-3 col-md-6">
+                    <div class="col-lg-4 col-md-6">
                         <article class="card custom-card feature-card reveal h-100">
                             <div class="feature-icon">
                                 <i class="fa-solid fa-book-medical"></i>
@@ -349,18 +354,7 @@
                         </article>
                     </div>
 
-                    <div class="col-xl-3 col-md-6">
-                        <article class="card custom-card feature-card reveal h-100">
-                            <div class="feature-icon">
-                                <i class="fa-solid fa-seedling"></i>
-                            </div>
-                            <h3>Infancia y adolescencia</h3>
-                            <p>Formación específica en psicoterapia de niños y adolescentes dentro del ámbito
-                                hospitalario.</p>
-                        </article>
-                    </div>
-
-                    <div class="col-xl-3 col-md-6">
+                    <div class="col-lg-4 col-md-6">
                         <article class="card custom-card feature-card reveal h-100">
                             <div class="feature-icon">
                                 <i class="fa-solid fa-graduation-cap"></i>
@@ -416,7 +410,11 @@
                                     <div class="mock-form">
                                         <span class="eyebrow">Formulario de contacto</span>
 
-                                        <form id="contactForm" novalidate>
+                                        <form id="contactForm" action="contacto.php" method="POST" novalidate>
+                                            <input type="text" name="website" class="hp-field" tabindex="-1" autocomplete="off" />
+
+                                            <input type="hidden" name="form_started_at" id="formStartedAt" />
+
                                             <input class="form-field" type="text" name="nombre"
                                                 placeholder="Nombre completo" />
 
@@ -508,12 +506,8 @@
                             <span class="footer-contact-text">myriam@benavidesscott.com.mx</span>
                         </li>
                         <li>
-                            <i class="fa-solid fa-envelope"></i>
-                            <span class="footer-contact-text">myriambenavides@vizcaya.com.mx</span>
-                        </li>
-                        <li>
                             <i class="fa-solid fa-location-dot"></i>
-                            <span class="footer-contact-text">Monterrey, Nuevo León</span>
+                            <span class="footer-contact-text">Monterrey, Nuevo León, México</span>
                         </li>
                     </ul>
                 </div>
@@ -521,7 +515,16 @@
 
             <div class="footer-bottom">
                 <span>Psicología clínica y psicodiagnóstico.</span>
-                <span>Alicia Miriam Benavides Scott · Consulta privada</span>
+
+                <span>
+                    Alicia Miriam Benavides Scott · Consulta privada
+                    <span class="footer-credit">
+                        · Imagen por
+                        <a href="https://magnific.com" target="_blank" rel="noopener">
+                            Magnific
+                        </a>
+                    </span>
+                </span>
             </div>
         </div>
     </footer>
@@ -529,5 +532,4 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="script.js"></script>
 </body>
-
 </html>
