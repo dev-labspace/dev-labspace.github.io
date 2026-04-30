@@ -1608,3 +1608,28 @@ textarea.form-field {
   opacity: 0;
   pointer-events: none;
 }
+
+.language-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.lang-btn {
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  padding: 0.25rem 0.1rem;
+  font: inherit;
+  cursor: pointer;
+  transition: color 0.25s ease;
+}
+
+.lang-btn:hover,
+.lang-btn.active {
+  color: var(--accent-dark);
+}
