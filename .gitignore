@@ -1,0 +1,7 @@
+# Archivos sensibles
+/private/
+mail-config.php
+email-config.php
+
+# Opcional (por si acaso)
+.env
