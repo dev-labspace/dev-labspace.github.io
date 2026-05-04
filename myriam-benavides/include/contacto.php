@@ -7,7 +7,7 @@ require __DIR__ . '/PHPMailer/src/PHPMailer.php';
 require __DIR__ . '/PHPMailer/src/SMTP.php';
 require __DIR__ . '/PHPMailer/src/Exception.php';
 
-$config = require __DIR__ . '/private/mail-config.php';
+$config = require __DIR__ . '/../../private/mail-config.php';
 
 header('Content-Type: application/json; charset=utf-8');
 

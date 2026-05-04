@@ -743,6 +743,20 @@ textarea.form-field {
   line-height: 1.55;
 }
 
+.contact-link {
+  color: inherit;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+  transition: color 0.22s ease;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--accent-dark);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 /* Footer */
 .site-footer {
   margin-top: 0;
@@ -868,6 +882,19 @@ textarea.form-field {
   overflow-wrap: anywhere;
   word-break: break-word;
   line-height: 1.65;
+}
+
+.footer-contact-text a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.22s ease;
+}
+
+.footer-contact-text a:hover,
+.footer-contact-text a:focus {
+  color: #fffaf6;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 .footer-bottom {
@@ -1602,6 +1629,7 @@ textarea.form-field {
   }
 }
 
+/* Hidden fields */
 .hp-field {
   position: absolute;
   left: -9999px;
@@ -1609,6 +1637,7 @@ textarea.form-field {
   pointer-events: none;
 }
 
+/* Language switch */
 .language-switch {
   display: inline-flex;
   align-items: center;
