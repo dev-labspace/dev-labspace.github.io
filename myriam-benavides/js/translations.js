@@ -46,7 +46,7 @@ window.translations = {
 
     timeline_1978_title: "Residencia en Psiquiatría Hospitalaria y de la Comunidad",
     timeline_1978_text:
-      "Integró la primera generación de esta especialidad en el Hospital Universitario de la UANL.",
+      "Integró la primera generación de esta especialidad en el Departamento de Psiquiatría del Hospital Universitario de la UANL.",
 
     timeline_1983_title: "Subespecialidad en Psicoterapia de Niños y Adolescentes",
     timeline_1983_text:
@@ -191,7 +191,7 @@ window.translations = {
 
     timeline_1978_title: "Residency in Hospital and Community Psychiatry",
     timeline_1978_text:
-      "Joined the first generation of this specialty at the UANL University Hospital.",
+      "Joined the first generation of this specialty in the Department of Psychiatry at the UANL University Hospital.",
 
     timeline_1983_title: "Subspecialty in Child and Adolescent Psychotherapy",
     timeline_1983_text:

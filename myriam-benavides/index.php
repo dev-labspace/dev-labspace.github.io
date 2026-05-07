@@ -176,8 +176,7 @@
                                     <div>
                                         <h3 data-i18n="timeline_1978_title">Residencia en Psiquiatría Hospitalaria y de la Comunidad</h3>
                                         <p data-i18n="timeline_1978_text">
-                                            Integró la primera generación de esta especialidad en el Hospital
-                                            Universitario de la UANL.
+                                            Integró la primera generación de esta especialidad en el Departamento de Psiquiatría del Hospital Universitario de la UANL.
                                         </p>
                                     </div>
                                 </div>
