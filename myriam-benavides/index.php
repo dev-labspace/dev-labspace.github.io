@@ -113,7 +113,7 @@
                 <div class="row g-4 align-items-center">
                     <div class="col-lg-5">
                         <div class="profile-photo-block reveal">
-                            <img src="img/alicia-miriam-benavides.jpg" alt="Alicia Miriam Benavides Scott"
+                            <img src="img/myriam-benavides.jpeg" alt="Alicia Miriam Benavides Scott"
                                 class="profile-photo">
                         </div>
                     </div>
@@ -520,9 +520,8 @@
                     <span data-i18n="footer_credit">Alicia Miriam Benavides Scott · Consulta privada</span>
                     <span class="footer-credit">
                         · <span data-i18n="image_credit">Imagen por</span>
-                        <a href="https://magnific.com" target="_blank" rel="noopener">
-                            Magnific
-                        </a>
+                        ID <a href="https://es.dreamstime.com/adolescente-en-clínica-de-salud-mental-image101035642">101035642</a> © 
+                        <a href="https://es.dreamstime.com/bialasiewicz_info">Bialasiewicz</a> | <a href="https://es.dreamstime.com/">Dreamstime.com</a>
                     </span>
                 </span>
             </div>
