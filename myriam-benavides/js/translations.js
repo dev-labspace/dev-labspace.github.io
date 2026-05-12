@@ -9,7 +9,7 @@ window.translations = {
 
     brand_small: "Psicoterapia y Psicodiagnóstico",
 
-    hero_title: "Atención psicológica con experiencia, seriedad clínica y trato humano.",
+    hero_title: "Atención psicológica con experiencia, profesionalismo clínico y trato humano.",
     hero_description:
       "La consulta privada integra formación especializada y amplia experiencia en psicoterapia, evaluación psicológica y psicodiagnóstico.",
     hero_primary: "Solicitar información",
@@ -53,7 +53,7 @@ window.translations = {
       "Formó parte de la primera generación de esta subespecialidad en el mismo Departamento de Psiquiatría.",
 
     timeline_teaching_year: "Trayectoria docente",
-    timeline_teaching_title: "Maestra, supervisora y coordinadora de la especialidad",
+    timeline_teaching_title: "Profesora, supervisora y coordinadora de la especialidad",
     timeline_teaching_text:
       "Desarrolló una amplia labor académica y de supervisión clínica, junto con su práctica privada.",
 
@@ -110,7 +110,7 @@ window.translations = {
 
     area_3_title: "Docencia clínica",
     area_3_text:
-      "Experiencia como maestra, supervisora y coordinadora en el Departamento de Psiquiatría de la UANL.",
+      "Experiencia como profesora, supervisora y coordinadora en el Departamento de Psiquiatría de la UANL.",
 
     cta_eyebrow: "Contacto",
     cta_title: "Un espacio de atención profesional, cercano y confiable.",
@@ -154,7 +154,7 @@ window.translations = {
     brand_small: "Psychotherapy and Psychodiagnosis",
 
     hero_title:
-      "Psychological care with experience, clinical seriousness, and a humane approach.",
+      "Psychological care with experience, clinical professionalism, and a human approach.",
     hero_description:
       "Private practice integrating specialized training and extensive experience in psychotherapy, psychological assessment, and psychodiagnosis.",
     hero_primary: "Request information",
@@ -198,7 +198,7 @@ window.translations = {
       "Was part of the first generation of this subspecialty in the same Department of Psychiatry.",
 
     timeline_teaching_year: "Teaching career",
-    timeline_teaching_title: "Teacher, supervisor, and specialty coordinator",
+    timeline_teaching_title: "Professor, supervisor, and specialty coordinator",
     timeline_teaching_text:
       "Developed extensive academic and clinical supervision work alongside her private practice.",
 
@@ -255,7 +255,7 @@ window.translations = {
 
     area_3_title: "Clinical teaching",
     area_3_text:
-      "Experience as a teacher, supervisor, and coordinator in the UANL Department of Psychiatry.",
+      "Experience as a professor, supervisor, and coordinator in the UANL Department of Psychiatry.",
 
     cta_eyebrow: "Contact",
     cta_title: "A professional, warm, and trustworthy care space.",

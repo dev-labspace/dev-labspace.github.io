@@ -58,7 +58,7 @@
                 <div class="row hero-row g-4 hero-full">
                     <div class="col-lg-6">
                         <div class="hero-text reveal">
-                            <h1 data-i18n="hero_title">Atención psicológica con experiencia, seriedad clínica y trato humano.</h1>
+                            <h1 data-i18n="hero_title">Atención psicológica con experiencia, profesionalismo clínico y trato humano.</h1>
 
                             <p class="hero-description" data-i18n="hero_description">
                                 La consulta privada integra formación especializada y amplia experiencia
@@ -203,7 +203,7 @@
                                         <span class="timeline-year" data-i18n="timeline_teaching_year">Trayectoria docente</span>
                                     </div>
                                     <div>
-                                        <h3 data-i18n="timeline_teaching_title">Maestra, supervisora y coordinadora de la especialidad</h3>
+                                        <h3 data-i18n="timeline_teaching_title">Profesora, supervisora y coordinadora de la especialidad</h3>
                                         <p data-i18n="timeline_teaching_text">
                                             Desarrolló una amplia labor académica y de supervisión clínica, junto con su
                                             práctica privada.
@@ -351,7 +351,7 @@
                                 <i class="fa-solid fa-graduation-cap"></i>
                             </div>
                             <h3 data-i18n="area_3_title">Docencia clínica</h3>
-                            <p data-i18n="area_3_text">Experiencia como maestra, supervisora y coordinadora en el Departamento de Psiquiatría de la UANL.</p>
+                            <p data-i18n="area_3_text">Experiencia como profesora, supervisora y coordinadora en el Departamento de Psiquiatría de la UANL.</p>
                         </article>
                     </div>
                 </div>
