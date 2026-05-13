@@ -30,7 +30,7 @@ window.translations = {
     profile_title:
       "Una trayectoria dedicada a la atención clínica, la docencia y el psicodiagnóstico.",
     profile_text_1:
-      "Egresada de la Universidad de Monterrey, Alicia Miriam Benavides Scott desarrolló su formación de posgrado (1978-2013) en el Departamento de Psiquiatría del Hospital Universitario de la UANL, donde también ejerció labores docentes y de coordinación.",
+      "Egresada de la Universidad de Monterrey, Alicia Miriam Benavides Scott desarrolló su formación de posgrado (1978-1985) en el Departamento de Psiquiatría del Hospital Universitario de la UANL, donde también ejerció labores docentes y de coordinación.",
     profile_text_2:
       "Su práctica integra experiencia clínica, formación especializada en psicoterapia de adultos, adolescentes y niños, y un profundo interés por el psicodiagnóstico como herramienta de evaluación precisa.",
 
@@ -82,7 +82,7 @@ window.translations = {
       "Facultad de Medicina UANL · Entrenamiento de especialidad de 1978 a 1981.",
 
     credential_4_tag: "Diploma",
-    credential_4_title: "Psicología Clínica Infantil",
+    credential_4_title: "Psicología Infantil",
     credential_4_text:
       "Curso tutelar teórico-clínico · Facultad de Medicina UANL · 1983–1985.",
 
@@ -133,12 +133,12 @@ window.translations = {
     phone: "Teléfono",
     email: "Correo electrónico",
 
-    footer_small: "Psicología clínica",
+    footer_small: "Psicología",
     footer_description:
       "Consulta privada con trayectoria clínica, formación especializada y experiencia en psicoterapia y psicodiagnóstico en Monterrey, Nuevo León.",
     footer_nav: "Navegación",
     footer_contact: "Contacto",
-    footer_bottom: "Psicología clínica y psicodiagnóstico.",
+    footer_bottom: "Psicoterapia y psicodiagnóstico.",
     footer_credit: "Alicia Miriam Benavides Scott · Consulta privada",
     image_credit: "Imagen por",
   },
@@ -227,7 +227,7 @@ window.translations = {
       "UANL School of Medicine · Specialty training from 1978 to 1981.",
 
     credential_4_tag: "Diploma",
-    credential_4_title: "Child Clinical Psychology",
+    credential_4_title: "Child Psychology",
     credential_4_text:
       "Tutored theoretical-clinical course · UANL School of Medicine · 1983–1985.",
 
@@ -278,12 +278,12 @@ window.translations = {
     phone: "Phone",
     email: "Email",
 
-    footer_small: "Clinical psychology",
+    footer_small: "Psychology",
     footer_description:
       "Private practice with clinical experience, specialized training, and expertise in psychotherapy and psychodiagnosis in Monterrey, Nuevo León.",
     footer_nav: "Navigation",
     footer_contact: "Contact",
-    footer_bottom: "Clinical psychology and psychodiagnosis.",
+    footer_bottom: "Psychotherapy and Psychodiagnosis.",
     footer_credit: "Alicia Miriam Benavides Scott · Private practice",
     image_credit: "Image by",
   },

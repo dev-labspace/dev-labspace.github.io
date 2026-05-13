@@ -124,7 +124,7 @@
                             <h2 data-i18n="profile_title">Una trayectoria dedicada a la atención clínica, la docencia y el psicodiagnóstico.</h2>
                             <p data-i18n="profile_text_1">
                                 Egresada de la Universidad de Monterrey, Alicia Miriam Benavides Scott desarrolló su
-                                formación de posgrado (1978-2013) en el Departamento de Psiquiatría del Hospital
+                                formación de posgrado (1978-1985) en el Departamento de Psiquiatría del Hospital
                                 Universitario de la UANL, donde también ejerció labores docentes y de coordinación.
                             </p>
                             <p data-i18n="profile_text_2">
@@ -290,7 +290,7 @@
                         <article class="card custom-card diploma-card reveal h-100">
                             <div class="diploma-card-body">
                                 <span class="diploma-tag" data-i18n="credential_4_tag">Diploma</span>
-                                <h3 data-i18n="credential_4_title">Psicología Clínica Infantil</h3>
+                                <h3 data-i18n="credential_4_title">Psicología Infantil</h3>
                                 <p data-i18n="credential_4_text">Curso tutelar teórico-clínico · Facultad de Medicina UANL · 1983–1985.</p>
                             </div>
                             <a href="docs/diploma-psicologia-clinica-infantil.pdf" target="_blank" rel="noopener"
@@ -385,7 +385,7 @@
                             <span class="eyebrow" data-i18n="contact_eyebrow">Contacto</span>
                             <h2 data-i18n="contact_title">Solicita información</h2>
                             <p data-i18n="contact_text">
-                                También puedes comunicarte por teléfono o correo electrónico.
+                                También puedes comunicarte por correo electrónico.
                             </p>
                         </div>
                     </div>
@@ -425,21 +425,7 @@
                                 </div>
 
                                 <div class="col-12">
-                                    <div class="contact-info-block contact-info-grid contact-info-grid-compact">
-                                        <div class="contact-item">
-                                            <span class="contact-symbol">
-                                                <i class="fa-solid fa-phone"></i>
-                                            </span>
-                                            <div>
-                                                <strong data-i18n="phone">Teléfono</strong>
-                                                <p>
-                                                    <a href="tel:+528183094221" class="contact-link">
-                                                        +52 (81) 8309-4221
-                                                    </a>
-                                                </p>
-                                            </div>
-                                        </div>
-
+                                    <div class="contact-info-block contact-info-grid-compact">
                                         <div class="contact-item">
                                             <span class="contact-symbol">
                                                 <i class="fa-solid fa-envelope"></i>
@@ -468,7 +454,7 @@
             <div class="footer-main">
                 <div class="footer-brand-block">
                     <a href="#inicio" class="footer-brand">
-                        <small data-i18n="footer_small">Psicología clínica</small>
+                        <small data-i18n="footer_small">Psicología</small>
                         <strong>Myriam Benavides</strong>
                     </a>
 
@@ -494,12 +480,6 @@
                     <span class="footer-title" data-i18n="footer_contact">Contacto</span>
                     <ul class="footer-contact-list">
                         <li>
-                            <i class="fa-solid fa-phone"></i>
-                            <span class="footer-contact-text">
-                                <a href="tel:+528183094221">+52 (81) 8309-4221</a>
-                            </span>
-                        </li>
-                        <li>
                             <i class="fa-solid fa-envelope"></i>
                             <span class="footer-contact-text">
                                 <a href="mailto:contacto@myriambenavides.com.mx">contacto@myriambenavides.com.mx</a>
@@ -514,7 +494,7 @@
             </div>
 
             <div class="footer-bottom">
-                <span data-i18n="footer_bottom">Psicología clínica y psicodiagnóstico.</span>
+                <span data-i18n="footer_bottom">Psicología y psicodiagnóstico.</span>
 
                 <span>
                     <span data-i18n="footer_credit">Alicia Miriam Benavides Scott · Consulta privada</span>
